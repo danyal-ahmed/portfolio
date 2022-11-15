@@ -27,10 +27,20 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "./node_modules/boxicons/css/boxicons.min.css",
+              "./node_modules/glightbox/dist/css/glightbox.min.css",
+              "./node_modules/swiper/dist/swiper-bundle.min.min.css",
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/@srexi/precounterjs/dist/purecounter_vanilla.js",
+              "./node_modules/aos/dist/aos.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              ""
+            ]
           },
           "configurations": {
             "production": {
